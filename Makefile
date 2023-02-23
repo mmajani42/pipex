@@ -6,15 +6,15 @@
 #    By: mmajani <mmajani@student.42lyon.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/02 07:14:59 by mmajani           #+#    #+#              #
-#    Updated: 2022/09/27 09:15:56 by mmajani          ###   ########lyon.fr    #
+#    Updated: 2023/02/23 10:05:42 by mmajani          ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		=	pipex
 
-SRCS		=	pipex.c		\
-				errors.c	\
-				paths.c
+SRCS		=	errors.c		\
+				paths.c			\
+				pipexbonus.c
 				
 HEADS		= $(shell find . -type f -name *.h)
 

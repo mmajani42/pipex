@@ -6,12 +6,19 @@
 /*   By: mmajani <mmajani@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 14:01:39 by mmajani           #+#    #+#             */
-/*   Updated: 2022/10/10 14:00:56 by mmajani          ###   ########lyon.fr   */
+/*   Updated: 2023/02/23 10:00:06 by mmajani          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PIPEX_H
 # define PIPEX_H
+
+# define INFILE 0
+# define OUTFILE 1
+
+# define STDIN 0
+# define STDOUT 1
+# define STDERR 2
 
 # include <unistd.h>
 # include "libft/libft.h"
